@@ -1,0 +1,35 @@
+.listsWrap{
+    display: flex;
+}
+.postListWrap{
+    width: 33%;
+}
+.commentsListWrap{
+    width: 33%;
+}
+.userlistWrap > li {
+    height: min-content;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    list-style-type:none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+button {
+    padding: 8px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.postListWrap , .commentsListWrap{
+    margin-left: 10px;
+    padding:0 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.postListWrap > li , .commentsListWrap > li{
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
